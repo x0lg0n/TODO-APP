@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/next";
 import type { Metadata } from "next";
 import { Inter, Playfair_Display } from "next/font/google";
 import "./globals.css";
@@ -25,9 +26,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${interSans.variable} ${playfairDisplay.variable} antialiased`}
-      >
+        className={`${interSans.variable} ${playfairDisplay.variable} antialiased`}>
         {children}
+        <Analytics />
       </body>
     </html>
   );
