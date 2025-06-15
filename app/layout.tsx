@@ -13,8 +13,8 @@ const playfairDisplay = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Built by Scout",
-  description: "scout.new",
+  title: "TODO APP by x0lg0n",
+  description: "TODO APP by x0lg0n, Built with ❤️ using Next.js and Supabase",
 };
 
 export default function RootLayout({
