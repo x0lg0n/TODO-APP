@@ -142,23 +142,6 @@ const { data } = await supabase
   .eq('id', todoId)
 ```
 
-## 🚀 Deployment
-
-### Deploy to Vercel
-
-1. Push your code to GitHub
-2. Import your repository in [Vercel](https://vercel.com)
-3. Add your environment variables in the Vercel dashboard
-4. Deploy!
-
-### Other Platforms
-
-This Next.js app can be deployed to any platform that supports Node.js:
-- **Netlify** - Connect your GitHub repo
-- **Railway** - Deploy with git integration
-- **AWS Amplify** - Full-stack deployment
-- **DigitalOcean App Platform** - Simple container deployment
-
 ## 🤝 Contributing
 
 Contributions are welcome! Here's how to get started:
