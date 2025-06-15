@@ -1,0 +1,35 @@
+# Bun dependencies and cache
+bun.lock
+.bun/
+
+# Next.js build output
+.next/
+out/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+bun-debug.log*
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Editor folders
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Optional deployment configs
+.vercel/
+.netlify/
+node_modules
+extra.txt
